@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Inspeksi HSE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo Perusahaan" class="logo">
+    <h1>Form Inspeksi HSE</h1>
+  </header>
+
+  <main>
+    <form>
+      <label>Nama Petugas:</label>
+      <input type="text" name="nama" required><br><br>
+
+      <label>Tanggal:</label>
+      <input type="date" name="tanggal" required><br><br>
+
+      <label>Lokasi:</label>
+      <input type="text" name="lokasi" required><br><br>
+
+      <label>Peralatan yang diperiksa:</label>
+      <textarea name="peralatan" rows="4" required></textarea><br><br>
+
+      <label>Kondisi:</label>
+      <select name="kondisi" required>
+        <option value="baik">Baik</option>
+        <option value="rusak">Rusak</option>
+        <option value="perlu_perbaikan">Perlu Perbaikan</option>
+      </select><br><br>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Perusahaan Anda</p>
+  </footer>
+</body>
+</html>
